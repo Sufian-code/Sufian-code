@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="fdas Map"
+        android:id="@+id/fmap"/>
+    <item
+        android:title="Survey Data"
+        android:id="@+id/sdata"
+        />
+    <item
+        android:title="Soil sample"
+        android:id="@+id/ssample"
+        />
+    <item
+        android:title="Water sample"
+        android:id="@+id/wsample"
+        />
+    <item
+        android:title="Acount"
+        android:id="@+id/account"
+        />
+    <item android:id="@+id/signout"
+        android:title="Sign out"
+        app:showAsAction="ifRoom"/>
+</menu>
